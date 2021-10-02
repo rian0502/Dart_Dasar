@@ -8,8 +8,8 @@ void main(List<String> args){
   int usia = 19;
   //variabel double di dart
   double berat = 75.5;
-  //variabel double di dart
-  double tinggi = 170;
+  //variabel num untuk isinya khusus number di dart
+   num tinggi = 170;
   //variabel dinamis di dart
   var bmi = berat/((tinggi/100)*(tinggi/100));
   //output dart menggunakan stdout harus import 'dart:io';
