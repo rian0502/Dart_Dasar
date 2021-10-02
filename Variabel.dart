@@ -23,4 +23,19 @@ void main(List<String> args){
   //output di dart tanpa import
   print("BMI saya adalah $bmi");
   
+    //Konfersi type data
+  String nilai = "100";
+
+  int nilaiInt = int.parse(nilai);
+  print(nilaiInt);
+
+  double nilaiDOuble = double.parse(nilai);
+  print(nilaiDOuble);
+
+  String nilaiStringInt = nilaiInt.toString();
+  print(nilaiStringInt);
+  
+  String nilaiStringDouble = nilaiDOuble.toString();
+  print(nilaiStringDouble);
+  
 }
